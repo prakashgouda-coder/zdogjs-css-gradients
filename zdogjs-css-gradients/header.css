@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: darkslateblue;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1 {
+    flex: 1 0 auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+
+a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration-line: none;
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: yellowgreen;
+
+    cursor: pointer;
+}
